@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://bpasanek.github.io/miles-sfsu-1954/audio-recording/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "audio-recording" ] },
+    "homepage": [
+      {
+        "id": "https://diva.sfsu.edu/collections/poetrycenter/bundles/191196",
+        "type": "Text",
+        "label": { "en": [ "audio-recording" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://diva.sfsu.edu/collections/poetrycenter",
+        "type": "Agent",
+        "label": { "en": [ "Poetry Center Digital Archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://bpasanek.github.io/miles-sfsu-1954/audio-recording/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 2665.0,
+        "items": [
+          {
+            "id": "https://bpasanek.github.io/miles-sfsu-1954/audio-recording/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://bpasanek.github.io/miles-sfsu-1954/audio-recording/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://diva.sfsu.edu/collections/poetrycenter/bundles/191196",
+                    "duration": 2665.0
+                },
+                "target": "https://bpasanek.github.io/miles-sfsu-1954/audio-recording/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
